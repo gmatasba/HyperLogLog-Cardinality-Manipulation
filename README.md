@@ -1,5 +1,5 @@
 # HyperLogLog-Cardinality-Manipulation
-An algorithm (and all its supporting scripts) designed to manipulate HLL's cardinality estimation
+An algorithm (and all its supporting scripts) designed to manipulate HLL's cardinality estimation.
 
 ## Setup
 In order to execute the scripts inside the repository, the users needs to set-up a Redis server. This tutorial will demonstrate how to set it up locally inside a Virtual Machine.
