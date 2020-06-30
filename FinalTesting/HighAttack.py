@@ -16,7 +16,7 @@ nF = 5 # Number of filtering passes
 sizeA = 40000 # Desired size of initial (unfiltered) attack vector
 
 #Create the csv
-with open('HighResults1.csv', 'w', newline='') as csvfile:
+with open('HighResults.csv', 'w', newline='') as csvfile:
     fieldnames = ['index', 'Target Cardinality', 'Length of A', 'Percent Cardinality', 'Number Evasion Rate', 'Evasion Rate']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
